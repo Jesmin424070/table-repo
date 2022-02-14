@@ -1,0 +1,23 @@
+.triangle{
+width: 350px;
+height: 350px;
+border-radius: 50%;
+background-color: chocolate;
+position: absolute;
+
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.img img{
+    width: 250px;
+    height: 250px;
+
+}
